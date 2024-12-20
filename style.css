@@ -1,4 +1,4 @@
-/*  import google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 html, body {
     margin: 0;
@@ -10,10 +10,10 @@ html, body {
 
   body {
     background: url('background.jpg') no-repeat center center fixed;
-    background-size: cover; /* Ensures the image covers the entire screen */
+    background-size: cover; 
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif; /* Optional */
+    font-family: 'Poppins', sans-serif; 
 }
 
 *{
@@ -272,27 +272,27 @@ section .title::after{
     font-size: 35px;
     font-weight: 600;
     text-shadow: 
-    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
-    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
-    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
-    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
+    1px 1px 0px rgb(7, 7, 7),  
+    -1px -1px 0px rgb(8, 8, 8), 
+    1px -1px 0px rgb(20, 20, 20),  
+    -1px 1px 0px rgb(8, 8, 8);  
 }
 .navbar .logo a span{
     color: #670650;
     text-shadow: 
-    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
-    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
-    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
-    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
+    1px 1px 0px rgb(7, 7, 7),   
+    -1px -1px 0px rgb(8, 8, 8), 
+    1px -1px 0px rgb(20, 20, 20),  
+    -1px 1px 0px rgb(8, 8, 8);  
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
     color: #fff;
     text-shadow: 
-    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
-    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
-    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
-    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
+    1px 1px 0px rgb(7, 7, 7),   
+    -1px -1px 0px rgb(8, 8, 8), 
+    1px -1px 0px rgb(20, 20, 20),  
+    -1px 1px 0px rgb(8, 8, 8);  
 }
 .navbar .menu li{
     list-style: none;
@@ -302,10 +302,10 @@ section .title::after{
     display: block;
     color: #fff;
     text-shadow: 
-    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
-    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
-    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
-    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
+    1px 1px 0px rgb(7, 7, 7),   
+    -1px -1px 0px rgb(8, 8, 8), 
+    1px -1px 0px rgb(20, 20, 20),  
+    -1px 1px 0px rgb(8, 8, 8);  
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -317,10 +317,10 @@ section .title::after{
 .navbar.sticky .menu li a:hover{
     color: #fff;
     text-shadow: 
-    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
-    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
-    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
-    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
+    1px 1px 0px rgb(7, 7, 7),   
+    -1px -1px 0px rgb(8, 8, 8), 
+    1px -1px 0px rgb(20, 20, 20),  
+    -1px 1px 0px rgb(8, 8, 8);  
 }
 
 /* menu btn styling */
@@ -365,10 +365,10 @@ section .title::after{
     height: 100vh;
     color: #fff;
     text-shadow: 
-    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
-    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
-    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
-    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
+    1px 1px 0px rgb(7, 7, 7),   
+    -1px -1px 0px rgb(8, 8, 8), 
+    1px -1px 0px rgb(20, 20, 20),
+    -1px 1px 0px rgb(8, 8, 8);  
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -398,10 +398,10 @@ section .title::after{
     color: #670650;
     font-weight: 500;
     text-shadow: 
-    1px 1px 0px rgb(255, 255, 255),   /* Top-left shadow */
-    -1px -1px 0px rgb(255, 255, 255), /* Bottom-right shadow */
-    1px -1px 0px rgb(255, 255, 255),  /* Top-right shadow */
-    -1px 1px 0px rgb(255, 255, 255);  /* Bottom-left shadow */
+    1px 1px 0px rgb(255, 255, 255),   
+    -1px -1px 0px rgb(255, 255, 255), 
+    1px -1px 0px rgb(255, 255, 255),  
+    -1px 1px 0px rgb(255, 255, 255);  
 }
 .home .home-content a{
     display: inline-block;
@@ -466,12 +466,12 @@ section .title::after{
 }
 /* Remove the default link styles */
 a {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Ensure it inherits text color */
+    text-decoration: none; 
+    color: inherit; 
 }
 
 a:hover {
-    color: #d0e3f7; /* Change color on hover */
+    color: #d0e3f7; 
 }
 
 /* services section styling */
@@ -724,12 +724,12 @@ a:hover {
     text-decoration: underline;
 }
 .contact-info div {
-    margin-bottom: 20px; /* Add space between the paragraphs */
+    margin-bottom: 20px; 
 }
 
 .call_details label,
 .call_details .col-sm-9 {
-    margin-bottom: 15px; /* Add space between address and email fields */
+    margin-bottom: 15px; 
 }
 
 .call_details .col-sm-9 a {
@@ -790,15 +790,15 @@ a:hover {
 
 .contact_wrapper .row {
     display: flex;
-    justify-content: space-between; /* Space out the columns */
+    justify-content: space-between; 
 }
 
 .contact-info {
-    width: 45%; /* Left side content width */
+    width: 45%; 
 }
 
 .message-box {
-    width: 45%; /* Right side content width */
+    width: 45%; 
 }
 
 .contact-info h2, .contact-info .subtitle {
@@ -854,30 +854,33 @@ a:hover {
 @media (max-width: 768px) {
     .contact-info,
     .message-box {
-        width: 100%; /* Ensure both sections take up full width */
-        padding: 15px; /* Adjust padding for mobile view */
-        box-sizing: border-box; /* Avoid overflow issues due to padding */
+        display: block;
+        width: 100%; 
+        padding: 15px; 
+        box-sizing: border-box; 
     }
 
     .contact_wrapper h2 {
-        font-size: 30px; /* Adjust font size for headings */
+        font-size: 30px; 
     }
 
     .contact_wrapper .form-control {
-        font-size: 14px; /* Adjust form input sizes */
+        font-size: 14px; 
     }
 
     .contact_wrapper .main-btn {
         font-size: 14px;
-        padding: 10px 20px; /* Adjust button padding */
+        padding: 10px 20px; 
     }
 }
 
 /* Mobile View (<= 576px) */
 @media (max-width: 576px) {
+    
     .contact_wrapper,
     .contact-info,
     .message-box {
+        display: block;
         padding: 20px; 
     }
 
@@ -909,6 +912,7 @@ a:hover {
   
 
 footer{
+    display: block;
     background: #670650;
     padding: 15px 23px;
     color: #fff;
@@ -925,6 +929,7 @@ footer span a:hover{
 
 @media (max-width: 1104px) {
     .about .about-content .left img{
+        display: block;
         height: 350px;
         width: 350px;
     }
@@ -932,6 +937,7 @@ footer span a:hover{
 
 @media (max-width: 991px) {
     .max-width{
+        display: block;
         padding: 0 50px;
     }
 }
@@ -1002,9 +1008,11 @@ footer span a:hover{
 
 @media (max-width: 690px) {
     .max-width{
+
         padding: 0 23px;
     }
     .home .home-content .text-2{
+        display: block;
         font-size: 60px;
     }
     .home .home-content .text-3{
@@ -1020,6 +1028,7 @@ footer span a:hover{
 
 @media (max-width: 500px) {
     .home .home-content .text-2{
+        display: block;
         font-size: 50px;
     }
     .home .home-content .text-3{
