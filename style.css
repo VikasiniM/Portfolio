@@ -1099,8 +1099,8 @@ display: block;
     }
 
     iframe {
-        height: 700px;
-        width: 350px;
+        display: block;
+        display: flex;
         border: none;
     }
 
