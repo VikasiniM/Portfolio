@@ -918,13 +918,6 @@ footer{
     color: #fff;
     text-align: center;
 }
-footer span a{
-    color: #670650;
-    text-decoration: none;
-}
-footer span a:hover{
-    text-decoration: underline;
-}
 
 
 @media (max-width: 1104px) {
@@ -1010,7 +1003,7 @@ footer span a:hover{
 
 @media (max-width: 690px) {
     .max-width{
-
+display: block;
         padding: 0 23px;
     }
     .home .home-content .text-2{
@@ -1063,6 +1056,7 @@ footer span a:hover{
 /* General styling for screens smaller than 600px */
 @media (max-width: 500px) {
     body {
+        display: block;
         margin: 0;
         padding: 0;
         font-family: 'Ubuntu', sans-serif;
@@ -1109,11 +1103,4 @@ footer span a:hover{
         display: inline-block;
     }
 
-   
-
-    .oneu {
-        font-size: 0.7rem;
-        margin-top: 8px;
-       
-    }
 }
