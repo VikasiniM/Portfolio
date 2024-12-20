@@ -886,25 +886,30 @@ a:hover {
 
     .contact_wrapper .col-lg-6,
     .mb-4 {
+        display: block;
         width: 100%;
     }
 
     .message-box input,
     .message-box textarea {
+        display: block;
         font-size: 14px; 
         padding: 10px; 
     }
 
     .message-box button[type="button"] {
+        display: block;
         font-size: 14px; 
         padding: 10px 20px; 
     }
 
     .call_details label {
+        display: block;
         font-weight: bold; 
     }
 
     .call_details p {
+        display: block;
         margin-top: 5px;
         font-size: 16px; 
     }
@@ -1011,12 +1016,15 @@ display: block;
         font-size: 60px;
     }
     .home .home-content .text-3{
+        display: block;
         font-size: 32px;
     }
     .home .home-content a{
+        display: block;
         font-size: 20px;
     }
     .services .serv-content .card{
+        display: block;
         width: 100%;
     }
 }
@@ -1027,20 +1035,25 @@ display: block;
         font-size: 50px;
     }
     .home .home-content .text-3{
+        display: block;
         font-size: 27px;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
+        display: block;
         font-size: 19px;
     }
     .contact .right form .fields{
+        display: block;
         flex-direction: column;
     }
     .contact .right form .name,
     .contact .right form .email{
+        display: block;
         margin: 0;
     }
     .right form .error-box{
+        display: block;
        width: 150px;
     }  
       
@@ -1063,18 +1076,20 @@ display: block;
     }
 
     center {
-        
+        display: block;
         width: 100%;
         padding: 10px;
     }
 
     h2 {
-        font-size: 1.2rem; /* Smaller heading size */
+        display: block;
+        font-size: 1.2rem; 
         margin-bottom: 15px;
         text-align: center;
     }
 
     .card {
+        display: block;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1083,17 +1098,20 @@ display: block;
     }
 
     iframe {
-        
+        height: 220px;
+        width: 150px;
         border: none;
     }
 
     .card p {
+        display: block;
         font-size: 0.8rem;
         margin: 8px 0;
         line-height: 1.3;
     }
 
     a {
+       
         font-size: 1rem;
         color: #670650;
         text-decoration: none;
