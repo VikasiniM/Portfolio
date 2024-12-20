@@ -882,7 +882,7 @@ a:hover {
     .contact-info,
     .message-box {
         display: block;
-        padding: 20px; 
+        padding: 10px; 
     }
 
     .contact_wrapper .col-lg-6,
@@ -1098,11 +1098,7 @@ display: block;
         padding: 10px;
     }
 
-    iframe {
-        display: block;
-        display: flex;
-        border: none;
-    }
+   
 
     .card p {
         display: block;
