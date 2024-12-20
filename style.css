@@ -985,6 +985,7 @@ footer span a:hover{
         max-width: 930px;
     }
     .about .about-content .column{
+        display: block;
         width: 100%;
     }
     .about .about-content .left{
@@ -1001,6 +1002,7 @@ footer span a:hover{
     }
     .skills .skills-content .column,
     .contact .contact-content .column{
+        display: block;
         width: 100%;
         margin-bottom: 35px;
     }
