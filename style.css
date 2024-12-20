@@ -1100,12 +1100,13 @@ display: block;
 
    
 iframe {
-       display: block; /* Ensures block-level behavior */
-        margin: 20px auto; /* Centers iframe horizontally */
-        width: calc(100% - 40px); /* Add padding around the iframe (20px on each side) */
-        max-width: 500px; /* Restrict maximum width for iframe */
-        height: 300px;
-        
+       width: 100%; /* Make iframe take up full width */
+        max-width: 90%; /* Restrict iframe width to 90% of screen */
+        height: 300px; /* Set height for better view in mobile */
+        margin: 20px auto; /* Center iframe vertically and horizontally */
+        padding: 10px; /* Add padding around the iframe */
+        border: none;
+    display: block;
     }
     
     .card p {
