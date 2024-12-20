@@ -1104,8 +1104,8 @@ iframe {
         max-width: 80%; 
         height: 70vh; 
         margin: 0.2px auto; 
-       margin-left: auto; 
-    margin-right: auto;
+       margin-left: 1px; 
+    margin-right: 1px;
         border: none;
     display: block;
     }
