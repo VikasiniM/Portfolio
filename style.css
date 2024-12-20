@@ -1060,3 +1060,65 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+<style>
+/* General styling for mobile view */
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    center {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Adjust heading size */
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    iframe {
+        width: 90%; /* Reduce width for mobile */
+        height: 300px; /* Adjust height */
+        border: none;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+        margin: 10px 0;
+        line-height: 1.4;
+    }
+
+    a {
+        font-size: 1.2rem;
+        color: #670650;
+        text-decoration: none;
+        margin-top: 15px;
+        padding: 10px 20px;
+        border: 2px solid #670650;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    a:hover {
+        background-color: #670650;
+        color: white;
+    }
+
+    .oneu {
+        font-size: 0.8rem;
+        margin-top: 10px;
+        text-decoration: underline;
+    }
+}
+</style>
