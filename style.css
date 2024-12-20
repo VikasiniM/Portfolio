@@ -1101,7 +1101,7 @@ display: block;
    
 iframe {
        width: 100%; /* Make iframe take up full width */
-        max-width: 90%; /* Restrict iframe width to 90% of screen */
+        max-width: 97%; /* Restrict iframe width to 90% of screen */
         height: 70vh; /* Set height for better view in mobile */
         margin: 0.5px auto; /* Center iframe vertically and horizontally */
        
