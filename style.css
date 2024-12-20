@@ -1100,13 +1100,11 @@ display: block;
 
    
 iframe {
-        width: calc(100% - 40px); /* Responsive width with padding */
-        max-width: 90%; /* Restrict width to prevent overflow */
-        height: 250px; /* Adjust height for mobile */
-        border: none;
-        margin: 20px auto; /* Center the iframe */
-        padding: 10px; /* Add padding inside the iframe container */
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better appearance */
+       display: block; /* Ensures block-level behavior */
+        margin: 20px auto; /* Centers iframe horizontally */
+        width: calc(100% - 40px); /* Add padding around the iframe (20px on each side) */
+        max-width: 500px; /* Restrict maximum width for iframe */
+        height: 300px;
         
     }
     
