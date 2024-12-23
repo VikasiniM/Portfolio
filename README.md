@@ -2,7 +2,7 @@
 
 
 Welcome to my personal portfolio! 🌟  
-This repository hosts the code for my portfolio website, which highlights my skills, projects, and achievements.
+This repository hosts the source for my portfolio website, which highlights my skills, projects, and achievements.
 
 ## Live Website  
 Check out the live version here:  
