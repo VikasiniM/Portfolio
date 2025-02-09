@@ -1036,35 +1036,113 @@ display: block;
 }
 
 @media (max-width: 500px) {
-    .home .home-content .text-2 {
-        font-size: 30px;
+    
+    body {
+        font-size: 14px;
     }
-    .home .home-content .text-3,
-    .education-section,
-    .leetcode-section,
-    .clock-section {
-        font-size: 18px;
+    
+    
+    .home .home-content .text-2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    
+    #clock-section {
         text-align: center;
         padding: 10px;
     }
-    .about .about-content .right .text,
-    .skills .skills-content .left .text {
+
+    #clock-section h2 {
+        font-size: 20px;
+    }
+
+    #clock-section .card {
+        width: 100%;
+        padding: 5px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    
+    .leetcode-section {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .leetcode-section h2 {
+        font-size: 22px;
+    }
+
+    .profile-summary img {
+        width: 60px;
+        height: auto;
+    }
+
+    .profile-info h3 {
         font-size: 16px;
     }
+
+    .profile-link {
+        font-size: 14px;
+    }
+
+    .skills-overview h3 {
+        font-size: 18px;
+    }
+
+    .skill-category p {
+        font-size: 14px;
+    }
+
+    
+    .education-section {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .education-section h2 {
+        font-size: 22px;
+    }
+
     .education-cards .education-card {
         font-size: 14px;
         padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 8px;
     }
+
+    .education-card h3 {
+        font-size: 16px;
+    }
+
+    .education-card p {
+        font-size: 14px;
+    }
+
+   
     .contact .right form .fields {
         flex-direction: column;
     }
+
     .contact .right form .name,
     .contact .right form .email {
         margin: 0;
     }
+
     .right form .error-box {
         width: 100px;
     }
+
+   
     .scroll-up-btn {
         right: 10px;
         bottom: 10px;
@@ -1072,19 +1150,5 @@ display: block;
         width: 30px;
         font-size: 20px;
         line-height: 30px;
-    }
-    iframe {
-        width: 100%;
-        height: 300px;
-    }
-    .profile-summary img {
-        width: 80px;
-        height: auto;
-    }
-    .profile-info h3 {
-        font-size: 16px;
-    }
-    .skills-overview {
-        font-size: 14px;
     }
 }
