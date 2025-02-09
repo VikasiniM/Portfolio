@@ -1094,7 +1094,7 @@ display: block;
         text-align: center;
     }
 
-    .card {
+    .card .education-section .leetcode-section .clock-section{
         display: block;
         display: flex;
         flex-direction: column;
