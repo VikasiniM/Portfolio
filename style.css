@@ -981,7 +981,7 @@ footer{
     .home .home-content .text-3{
         font-size: 35px;
     }
-    .home .home-content a{
+    .home .home-content a {
         font-size: 23px;
         padding: 10px 30px;
     }
@@ -1063,7 +1063,7 @@ display: block;
        width: 150px;
     }  
       
-    .scroll-up-btn{
+    .scroll-up-btn {
         right: 15px;
         bottom: 15px;
         height: 38px;
@@ -1109,7 +1109,7 @@ display: block;
          
     }
 
-    .card p {
+    .card p .education-section .leetcode-section .clock-section{
         display: block;
         font-size: 0.8rem;
         margin: 8px 0;
